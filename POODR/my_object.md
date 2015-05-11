@@ -33,5 +33,5 @@ Parser.rb
 
 require 'csv'
 
-items = CSV.read('fridge.csv', :headers => true, :header_converters => symbol)
+items = CSV.read('items.csv', :headers => true, :header_converters => symbol)
 

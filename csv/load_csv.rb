@@ -20,3 +20,9 @@ end
 
 flash << ["where are you","I am here",false,0]
 flash.each {|row| p row[:question]}
+
+
+
+#----------------------------------------------------------------
+
+# Continue: Opening Text Files
