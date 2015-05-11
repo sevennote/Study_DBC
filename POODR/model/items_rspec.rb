@@ -51,7 +51,7 @@ describe Shelf do
 	  it "it should add an item" do
 		  original_length = @s.shelf_items.length
 		  @s.add_item({:name => "kazoo"})
-		  expect(@s.shelf_items.length).to eq(original_length + 1)
+		  expect(@s.shelf_items.length n).to eq(original_length + 1)
 	  end
 	end
 end
